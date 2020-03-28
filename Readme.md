@@ -32,14 +32,18 @@
 ---
 ## Certifications
 - AWS Certification validates cloud expertise to help professionals highlight in-demand skills and organizations build effective, innovative teams for cloud initiatives using AWS.
-- Below are the different certifications provided by AWS. 
+- Below are the different certifications provided by AWS. This tutorial focus on fundaments for AWS Associate Developer. 
   - Foundation is optional for Associate.
   - Associate is mandatory for Professional program.
   - Atleast one Foundation/Associate program required for Specialization Program.
   ![](./01-Images/01-Certificates.png) 
+
 ---
 ## Installation
-- There are multiple ways to start working with Javascript 
+- AWS Support accessing management console using below. This tutorial focus on using AWS Console. Brieif overview of other access mechanisms are detailed in the Identity module below. 
+  - [AWS UI Console](https://console.aws.amazon.com) 
+  - AWS CLI
+  - AWS Rest API
 
 ---
 ## Modules
