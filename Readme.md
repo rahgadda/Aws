@@ -10,14 +10,14 @@
 - The idea of this tutorial is to provide my perspective and knowledge on **Amazon Web Service (AWS Cloud)**.
 - AWS is a subsidiary of **Amazon** that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
 - For any company to innovate, infrastructure is the pre-requisite. AWS helps organizations to resolve this concern. Ther are three types of cloud solutions providers
-  - **IAAS**: Infrastructure As A Service, this service is used to provide enterprise requirements of Compute, Storage, Network, and Security. Offering hear include EC2, S3, VPC, EBS etc...
+  - **IAAS**: Infrastructure As A Service, this service is used to provide enterprise requirements of Compute, Storage, Network, and Security. Offering here include EC2, S3, VPC, EBS etc...
   - **PAAS**: Platform As A Service, this service is used to provide a platform for the developer to easily deliver their solutions like Fargate, Lambda, RDS etc...
   - **SAAS**: Software As A Service, this service is an end software product used by the customer. AWS does not have any offering in this area but there are companies like Netflix, Amazon Prime, etc... provide solutions to end customers.
-- AWS is trying to resolve enterprise customers datacenter requirements like autoscaling, multi-region availability, fault-tolerant, and security. These are provided with below:
+- AWS is trying to resolve enterprise customer's datacenter requirements like autoscaling, multi-region availability, fault-tolerant, and security. These are provided with below:
   - **Regions**: There are different areas where AWS provides datacenters like Virginia, London, etc... The exact location details of these regions are highly classified to avoid threats from terrorist attacks as this contains multiple enterprise customer's data.
   - **Availability Zones**: These are exact areas where data centers are available. Alphanumeric names will be used to indicate these areas like 1a, 1b. In a region, there will be atleast two availability zone. These are typically located in extreme opposite locations in a region to avoid environmental catastrophes. A completed list of AWS AZ's are listed [here](https://aws.amazon.com/about-aws/global-infrastructure/).
+  - 
   - **Global Network**: Every data center, AZ, and AWS Region is interconnected via private global network infrastructure managed by AWS. Connectivity details are available [here](https://aws.amazon.com/about-aws/global-infrastructure/global_network/)
-
 
 ---
 ## History
@@ -57,7 +57,7 @@
 ---
 ## Modules
 - There are multiple modules of AWS that we have to go through to master it. Below is a comprehensive list of modules that will be covered as part of this tutorial.
-
+  - 
 ---
 ## Appendix
 - Reference
