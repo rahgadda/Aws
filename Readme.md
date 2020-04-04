@@ -57,7 +57,25 @@
 ---
 ## Modules
 - There are multiple modules of AWS that we have to go through to master it. Below is a comprehensive list of modules that will be covered as part of this tutorial.
-  - 
+  - IAM
+  - VPC
+  - CloudWatch
+  - Storage
+  - EC2
+  - CloudFront
+  - RDS
+  - Kinesis
+  - Kendra
+  - EKS
+  - Lamda
+  - APIGateway
+  - ElasticBean
+  - Fargate
+  - Lex
+  - Alexa
+  - SageMaker
+  - OpsWorks
+
 ---
 ## Appendix
 - Reference
