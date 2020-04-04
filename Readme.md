@@ -75,6 +75,7 @@
   - EC2
   - CloudFront
   - RDS
+  - Batch
   - Kinesis
   - Kendra
   - EKS
