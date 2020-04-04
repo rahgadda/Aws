@@ -74,6 +74,7 @@
   - Storage
   - EC2
   - CloudFront
+  - Cognito
   - RDS
   - Batch
   - Kinesis
