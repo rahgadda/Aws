@@ -9,6 +9,10 @@
 ## Overview
 - The idea of this tutorial is to provide my perspective and knowledge on **Amazon Web Service (AWS Cloud)**.
 - AWS is a subsidiary of **Amazon** that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
+- There three type of computer infrastructure deployment models
+  - **On-Premise**: In this model, computer infrastructure is deployed and managed by individual enterprise. This approach is used where enterprise are bound to maintain the confidentially of data like banks, government agencies etc...
+  - **Hybrid**: In this model, organizations will have both On-Premise and Cloud infrastructure. This model is really appreciated by lots of companies.
+  - **Cloud**: This is where enterprise all operations are done are cloud. This model is used by startups where they will have the flexibility to try a new solution using cloud and scale based on the acceptance of the market.
 - For any company to innovate, infrastructure is the pre-requisite. AWS helps organizations to resolve this concern. Ther are three types of cloud solutions providers
   - **IAAS**: Infrastructure As A Service, this service is used to provide enterprise requirements of Compute, Storage, Network, and Security. Offering here include EC2, S3, VPC, EBS etc...
   - **PAAS**: Platform As A Service, this service is used to provide a platform for the developer to easily deliver their solutions like Fargate, Lambda, RDS etc...
@@ -19,6 +23,12 @@
   - **Availability Zones (AZ's)**: These are exact areas where data centers are available. Alphanumeric names will be used to indicate these areas like 1a, 1b. In a region, there will be atleast two availability zone. These are typically located in extreme opposite locations in a region to avoid environmental catastrophes. A completed list of AWS AZ's are listed [here](https://aws.amazon.com/about-aws/global-infrastructure/).
   - **Edge Locations**: A site that CloudFront uses to cache copies of your content for faster delivery to users at any location. A completed list of AWS Edge Locations are listed [here](https://aws.amazon.com/cloudfront/features/).
   - **Global Network**: Every data center, AZ, and AWS Region is interconnected via private global network infrastructure managed by AWS. Connectivity details are available [here](https://aws.amazon.com/about-aws/global-infrastructure/global_network/)
+  - **Data Transfer**:
+    - *Snowball*: It is a petabyte-scale data transport solution that uses devices designed to be secure to transfer large amounts of data into and out of the AWS Cloud.
+    - *Snowball Edge*: It is a data migration and edge computing device that comes in two options 24 vCPUs and 52 vCPUs and an optional GPU. This is used for processing and transfer of data. 
+    - *Snowmobile*: It is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS. You can transfer up to 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. 
+    - *Direct Connect*: It is a dedicated physical connection to accelerate network transfers between customer datacenters to AWS.
+    - *DataSync*: It helps to migrate active data sets or archives to AWS S3, EFS or FSx. Customer will pay only for the data movement.
 
 ---
 ## History
