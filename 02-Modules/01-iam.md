@@ -57,18 +57,18 @@
 ---  
 ### Building Blocks
 
-- Policies:
+- **Policies**:
   - A policy is an object in AWS that, when associated with an identity (users, groups of users, or roles) or resource (EC2, S3), defines their permissions.
-    - *Identify Based*:
+    - **Identify Based**:
       - It controls what actions the identity can perform, on which resources, and under what conditions. These are categorized into two types
-        - *Inline policies*:
+        - **Inline policies**:
           - Policies are directly embedded into a single user, group, or role.
           - This approach is not recommended.
-        - *Managed policies*:
+        - **Managed policies**:
           - Policies are assigned to multiple user, group, or role.
           - These policies can be created using two types
-            - *AWS managed policies*: These are default policies created and managed by AWS. Setup user can start with using these and then created custom policies if does not satisfy implementation needs.
-            - *Customer managed policies*: Setup user can created and manage these based on implementation needs.
+            - **AWS managed policies**: These are default policies created and managed by AWS. Setup user can start with using these and then created custom policies if does not satisfy implementation needs.
+            - **Customer managed policies**: Setup user can created and manage these based on implementation needs.
   - Policies can be managed at IAM roles, User Groups, resource-based, AWS Organizations service.
   - Each policy definition contains the summary at Policy, Service and Action.
     ![](../01-Images/03-PolicySummarypng.png)
