@@ -21,14 +21,20 @@
 - AWS is trying to resolve enterprise customer's datacenter requirements like autoscaling, multi-region availability, fault-tolerant, and security. These are provided with below:
   - **Regions**: There are different areas where AWS provides datacenters like Virginia, London, etc... The exact location details of these regions are highly classified to avoid threats from terrorist attacks as this contains multiple enterprise customer's data.
   - **Availability Zones (AZ's)**: These are exact areas where data centers are available. Alphanumeric names will be used to indicate these areas like 1a, 1b. In a region, there will be atleast two availability zone. These are typically located in extreme opposite locations in a region to avoid environmental catastrophes. A completed list of AWS AZ's are listed [here](https://aws.amazon.com/about-aws/global-infrastructure/).
-  - **Edge Locations**: A site that CloudFront uses to cache copies of your content for faster delivery to users at any location. A completed list of AWS Edge Locations are listed [here](https://aws.amazon.com/cloudfront/features/).
+  - **Edge Locations**: A site that CloudFront uses to cache copies of your content for faster delivery to users at any location. A completed list of AWS Edge Locations are listed [here](https://aws.amazon.com/cloudfront/features/). These are owned and managed by AWS or AWS Partners. These are directly connected to AWS datacenters.
   - **Global Network**: Every data center, AZ, and AWS Region is interconnected via private global network infrastructure managed by AWS. Connectivity details are available [here](https://aws.amazon.com/about-aws/global-infrastructure/global_network/)
   - **Data Transfer**:
-    - *Snowball*: It is a petabyte-scale data transport solution that uses devices designed to be secure to transfer large amounts of data into and out of the AWS Cloud.
-    - *Snowball Edge*: It is a data migration and edge computing device that comes in two options 24 vCPUs and 52 vCPUs and an optional GPU. This is used for processing and transfer of data. 
-    - *Snowmobile*: It is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS. You can transfer up to 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. 
-    - *Direct Connect*: It is a dedicated physical connection to accelerate network transfers between customer datacenters to AWS.
-    - *DataSync*: It helps to migrate active data sets or archives to AWS S3, EFS or FSx. Customer will pay only for the data movement.
+    - **Snowball**: It is a petabyte-scale data transport solution that uses devices designed to be secure to transfer large amounts of data into and out of the AWS Cloud.
+    - **Snowball Edge**: It is a data migration and edge computing device that comes in two options 24 vCPUs and 52 vCPUs and an optional GPU. This is used for processing and transfer of data. 
+    - **Snowmobile**: It is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS. You can transfer up to 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. 
+    - **Direct Connect**: It is a dedicated physical connection to accelerate network transfers between customer datacenters to AWS.
+    - **DataSync**: It helps to migrate active data sets or archives to AWS S3, EFS or FSx. Customer will pay only for the data movement.
+  - **Datacenter**
+    - AWS also provide a modular datacenter called **Perdix** container.
+    ![](./01-Images/09-Perdix.png)
+    - AWS also provide a **Outposts**, single-vendor compute & storage solution that is fully managed by AWS in customer datacenter. This is the same hardware used by AWS for there internal datacenters.
+    ![](./01-Images/08-Outpost.png)
+    - Aws provide **Nitro Cards** that are powers EC2 instances with an ever-broadening selection of compute, storage, memory, and networking.
 
 ---
 ## History
@@ -95,4 +101,7 @@
   - [LinuxAcademy](https://linuxacademy.com/learning-path/amazon-web-services-master-level/)
   - [Greatlearning](https://www.greatlearning.in/academy/enterprise/courses/cloud-computing-with-aws)
   - [FreeCodeCamp](https://www.youtube.com/watch?v=3hLmDS179YE&t=4391s)
+  - [Datacenterknowledge](https://www.datacenterknowledge.com/archives/2011/06/09/a-look-inside-amazons-data-centers)
+  - [AWS reInvent Nitro 2018](https://www.youtube.com/watch?v=e8DVmwj3OEs&t=3342s)
+  - [AWS reInvent Nitro 2019](https://www.youtube.com/watch?v=rUY-00yFlE4)
     
