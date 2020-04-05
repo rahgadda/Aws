@@ -14,7 +14,8 @@
     - HTTP Rest API
     - AWS CLI
     - SDK
-  
+
+---  
 ### Terms
 
 - Building blocks of IAM operations
@@ -53,6 +54,8 @@
 
 ![](../01-Images/03-IAMTerms.png)
 
+
+---
 ### References
 
 - [Edureka](https://www.youtube.com/watch?v=UqKWHZ36yEM)
