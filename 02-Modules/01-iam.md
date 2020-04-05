@@ -86,5 +86,6 @@
 ### References
 
 - [Edureka](https://www.youtube.com/watch?v=UqKWHZ36yEM)
-- [AWS reInvent](https://www.youtube.com/watch?v=YQsK4MtsELU&t=1208s)
+- [AWS reInvent IAM Deep Dive](https://www.youtube.com/watch?v=YQsK4MtsELU&t=1208s)
+- [AWS reInvent ABAC](https://www.youtube.com/watch?v=Iq_hDc385t4)
 - [AWS User Manual](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
