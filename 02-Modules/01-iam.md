@@ -52,3 +52,9 @@
     - A resource is an object that exists within a service. Examples EC2 instance, an IAM user, and S3 bucket. This is also included in policy definition.
 
 ![](../01-Images/03-IAMTerms.png)
+
+### References
+
+- [Edureka](https://www.youtube.com/watch?v=UqKWHZ36yEM)
+- [AWS reInvent](https://www.youtube.com/watch?v=YQsK4MtsELU&t=1208s)
+- [AWS User Manual](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
