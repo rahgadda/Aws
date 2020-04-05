@@ -51,4 +51,4 @@
   - **Resources**:
     - A resource is an object that exists within a service. Examples EC2 instance, an IAM user, and S3 bucket. This is also included in policy definition.
 
-![](./01-Images/03-IAMTerms.png)
+![](../01-Images/03-IAMTerms.png)
