@@ -79,7 +79,9 @@
     **Example**
     ![](../01-Images/06-PolicyExample.png)
   - Each policy definition contains the summary at Policy, Service and Action.
-    ![](../01-Images/04-PolicySummarypng.png)
+    ![](../01-Images/04-PolicySummary.png)
+  - AWS supports both RBAC(Role Based Access Control) and ABAC(Attribute Based Access Control). ABAC can be achieved using tags and conditions. In below, colors represent tags.
+    ![](../01-Images/07-ABACExample.png)
 
 
 ---
