@@ -68,7 +68,7 @@
 ---
 ## Modules
 - There are multiple modules of AWS that we have to go through to master it. Below is a comprehensive list of modules that will be covered as part of this tutorial.
-  - IAM
+  - [IAM](./02-Modules/01-iam.md)
   - VPC
   - Cloud Watch
   - Storage
