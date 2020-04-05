@@ -5,7 +5,7 @@
 - The features of AWS IAM Service are given below:
   - Can create user *groups* to create and share policies based on different departments and access restrictions.
   - Can create *roles* to temporarily grant access to users or one AWS resource to another.
-  - This service is free of cost, AWS IAM and AWS Security Token Service (AWS STS) are charged only when you access other AWS services using these.
+  - This service is free of cost, AWS IAM and AWS Security Token Service (STS) are charged only when you access other AWS services using these.
   - IAM achieves high availability by replicating data across multiple servers, this results in *Eventually Consistent*.
   - IAM supports *Identity Federation*, we can use exisitng corporate SSO to login or public authentication services like facebook/Google for authentication.
   - User can also add two factor authentication using *Multi-factor authentication (MFA)*.
@@ -16,7 +16,7 @@
     - SDK
 
 ---  
-### Terms
+### Basic Terms
 
 - Building blocks of IAM operations
   - **Principal**:
@@ -53,6 +53,25 @@
     - A resource is an object that exists within a service. Examples EC2 instance, an IAM user, and S3 bucket. This is also included in policy definition.
 
 ![](../01-Images/03-IAMTerms.png)
+
+---  
+### Building Blocks
+
+- Policies:
+  - A policy is an object in AWS that, when associated with an identity (users, groups of users, or roles) or resource (EC2, S3), defines their permissions.
+    - *Identify Based*:
+      - It controls what actions the identity can perform, on which resources, and under what conditions. These are categorized into two types
+        - *Inline policies*:
+          - Policies are directly embedded into a single user, group, or role.
+          - This approach is not recommended.
+        - *Managed policies*:
+          - Policies are assigned to multiple user, group, or role.
+          - These policies can be created using two types
+            - *AWS managed policies*: These are default policies created and managed by AWS. Setup user can start with using these and then created custom policies if does not satisfy implementation needs.
+            - *Customer managed policies*: Setup user can created and manage these based on implementation needs.
+  - Policies can be managed at IAM roles, User Groups, resource-based, AWS Organizations service.
+  - Each policy definition contains the summary at Policy, Service and Action.
+    ![](../01-Images/03-PolicySummarypng.png)
 
 
 ---
