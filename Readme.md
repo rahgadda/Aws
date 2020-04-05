@@ -34,7 +34,7 @@
     ![](./01-Images/09-Perdix.png)
     - AWS also provide a **Outposts**, single-vendor compute & storage solution that is fully managed by AWS in customer datacenter. This is the same hardware used by AWS for there internal datacenters.
     ![](./01-Images/08-Outpost.png)
-    - Aws provide **Nitro Cards** that are powers EC2 instances with an ever-broadening selection of compute, storage, memory, and networking.
+    - Aws provide **Nitro Cards** that powers EC2 instances with an ever-broadening selection of compute, storage, memory, and networking.
 
 ---
 ## History
