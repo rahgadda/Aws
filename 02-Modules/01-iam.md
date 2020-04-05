@@ -60,7 +60,7 @@
 - **Policies**:
   - A policy is an object in AWS that, when associated with an identity (users, groups of users, or roles) or resource (EC2, S3), defines their permissions.
     - **Identify Based**:
-      - It controls what actions the identity can perform, on which resources, and under what conditions. These are categorized into two types
+      - It checks what actions the identity can perform, on which resources, and under what conditions. These are categorized into two types
         - **Inline policies**:
           - Policies are directly embedded into a single user, group, or role.
           - This approach is not recommended.
@@ -69,9 +69,17 @@
           - These policies can be created using two types
             - **AWS managed policies**: These are default policies created and managed by AWS. Setup user can start with using these and then created custom policies if does not satisfy implementation needs.
             - **Customer managed policies**: Setup user can created and manage these based on implementation needs.
-  - Policies can be managed at IAM roles, User Groups, resource-based, AWS Organizations service.
+    - **Resource-Based**:
+      - It checks what actions the principal can perform, on which resources, and under what conditions.
+      - Resource-based policies are inline policies, and there are no managed resource-based policies.
+      - Resource-based policies are only one type *role trust* policy, which is attached to an IAM role.
+      - IAM role is both an identity and a resource-based policy. Setup user must attach both a trust policy and an identity-based policy to an IAM role. 
+  - Policies can be managed at IAM roles, User Groups, resource-based, AWS Organizations service. Below is the high-level overview of AWS Policy Structure.
+    ![](../01-Images/05-PolicyStructure.png)
+    **Example**
+    ![](../01-Images/06-PolicyExample.png)
   - Each policy definition contains the summary at Policy, Service and Action.
-    ![](../01-Images/03-PolicySummarypng.png)
+    ![](../01-Images/04-PolicySummarypng.png)
 
 
 ---
