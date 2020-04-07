@@ -83,6 +83,49 @@
   - AWS supports both **RBAC**(Role Based Access Control) and **ABAC**(Attribute Based Access Control). ABAC can be achieved using tags and conditions. In below, colors represent tags.
     ![](../01-Images/07-ABACExample.png)
 
+---  
+### AWS Access Mechanism
+- **Console**:
+  - A root user can login to AWS using [here](https://console.aws.amazon.com/)
+  - User can login to AWS and change the organiation IAM login url using Console -> Services -> IAM -> Dashboard
+  ![](../01-Images/10-IAMCustomize.png)
+- **CLI**:
+  - Download AWS CLI based on your operating system from [here](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html) and run below powershell commands.
+  - AWS CLI follows `aws <command> <subcommand> [options and parameters]` command strucutre
+  
+    ``` powershell
+    CMD> aws --version
+    aws-cli/2.0.7 Python/3.7.5 Windows/10 botocore/2.0.0dev11
+    CMD> choco install vim -y
+    
+    CMD> vim %UserProfile%\.aws\credentials
+    [default]
+    aws_access_key_id=XXXXX
+    aws_secret_access_key=XXXXX
+    
+    CMD> vim %UserProfile%\.aws\config
+    [default]
+    region=us-east-1
+    output=json
+    
+    CMD> aws iam help
+    
+    CMD> aws iam get-user
+    {
+      "User": {
+          "Path": "/",
+          "UserName": "cloud_user",
+          "UserId": "AIDAS3U4ECDZKZGAXU7J3",
+          "Arn": "arn:aws:iam::196822175986:user/cloud_user",
+          "CreateDate": "2020-04-06T23:50:58+00:00",
+          "PasswordLastUsed": "2020-04-07T00:45:36+00:00"
+      }
+    }
+    ```
+- **Http**:
+  - Use Postman to access AWS HTTP API. Logic to create authentication using programing languages is provided [here](https://docs.aws.amazon.com/general/latest/gr/signature-v4-examples.html)
+  ![](../01-Images/11-IAMRestApiAuth.png)
+  ![](../01-Images/12-IAMResponse.png) 
 
 ---
 ### References
